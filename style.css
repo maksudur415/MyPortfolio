@@ -4,12 +4,16 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
 body{
     background: #080808;
     color: #fff;
+}
+p{
+    font-size: 16px;
 }
 #header{
     width: 100%;
