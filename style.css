@@ -339,25 +339,19 @@ nav .fas{
     }
        .logo {
         width: 66px;
-        margin-left: 188px;
+        margin-left: opx;
         }
-    .container {
-    padding: 10px 10%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
-    overflow-x: hidden;
-    }
+        .container {
+            padding: 10px 10%;
+            overflow-x: hidden;
+        }
      .header-text {
         margin-top: 33%;
         font-size: 16px;
         padding-right: 134px;
      }
     .header-text h1{
-        font-size: 33px;
+        font-size: 25px;
     }
     nav .fas{
         display: block;
