@@ -429,8 +429,14 @@ nav .fas{
         padding-right: 134px;
      }
     .header-text h1{
-        font-size: 25px;
+        font-size: 40px;
     }
+    
+        .about-col-1 img {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 55px;
+        }
 }
 /* Smartphones (portrait) ---------- */
 @media screen and (max-width: 320px){
