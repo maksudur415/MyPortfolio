@@ -329,11 +329,24 @@ nav .fas{
 }
 
 @media only screen and (max-width: 600px){
- 
-    .header-text {
-        margin-top: 100%;
-        font-size: 16px;
+     .logo {
+        width: 140px;
+        padding-left: 72px;
     }
+    .container {
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    }
+     .header-text {
+        margin-top: 33%;
+        font-size: 16px;
+        padding-right: 134px;
+     }
     .header-text h1{
         font-size: 22px;
     }
