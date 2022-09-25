@@ -329,14 +329,18 @@ nav .fas{
 }
 
 @media only screen and (max-width: 600px){
-      #header{
+        #about {
+                padding: 0px 0 !important;
+                color: #ababab;
+          }  
+        #header {
         width: 100%;
-        background-size: 300px 100px;
-        background-image: url(images/back01.png);
+        height: 63vh;
+        background-image: url(images/background.png);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-    }
+        }
        .logo {
         width: 66px;
         margin-left: opx;
@@ -351,7 +355,7 @@ nav .fas{
         padding-right: 134px;
      }
     .header-text h1{
-        font-size: 25px;
+        font-size: 38px;
     }
     nav .fas{
         display: block;
@@ -406,89 +410,4 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
-@media screen and (min-width: 320px) and (max-width: 480px){
-   #header{
-        width: 100%;
-        background-size: 300px 100px;
-        background-image: url(images/back01.png);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-       .logo {
-        width: 66px;
-        margin-left: opx;
-        }
-        .container {
-            padding: 10px 10%;
-            overflow-x: hidden;
-        }
-     .header-text {
-        margin-top: 33%;
-        font-size: 16px;
-        padding-right: 134px;
-     }
-    .header-text h1{
-        font-size: 40px;
-    }
-    
-        .about-col-1 img {
-            width: 100%;
-            border-radius: 15px;
-            margin-top: 55px;
-        }
-}
-/* Smartphones (portrait) ---------- */
-@media screen and (max-width: 320px){
-   #header{
-        width: 100%;
-        background-size: 300px 100px;
-        background-image: url(images/back01.png);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-       .logo {
-        width: 66px;
-        margin-left: opx;
-        }
-        .container {
-            padding: 10px 10%;
-            overflow-x: hidden;
-        }
-     .header-text {
-        margin-top: 33%;
-        font-size: 16px;
-        padding-right: 134px;
-     }
-    .header-text h1{
-        font-size: 25px;
-    }
-}
-/* Smartphones (landscape) ---------- */
-@media screen and (min-width: 321px){
-    #header{
-        width: 100%;
-        background-size: 300px 100px;
-        background-image: url(images/back01.png);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-       .logo {
-        width: 66px;
-        margin-left: opx;
-        }
-        .container {
-            padding: 10px 10%;
-            overflow-x: hidden;
-        }
-     .header-text {
-        margin-top: 33%;
-        font-size: 16px;
-        padding-right: 134px;
-     }
-    .header-text h1{
-        font-size: 25px;
-    }
-}
+
