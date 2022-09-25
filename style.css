@@ -341,6 +341,7 @@ nav .fas{
     align-content: center;
     justify-content: center;
     align-items: flex-start;
+    background-size: 0 0;
     }
      .header-text {
         margin-top: 33%;
