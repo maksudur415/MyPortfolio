@@ -337,10 +337,10 @@ nav .fas{
         background-position: center;
         background-attachment: fixed;
     }
-    .logo {
-        width: 140px;
-        padding-left: 72px;
-    }
+       .logo {
+        width: 66px;
+        margin-left: 188px;
+        }
     .container {
     padding: 10px 10%;
     display: flex;
@@ -357,7 +357,7 @@ nav .fas{
         padding-right: 134px;
      }
     .header-text h1{
-        font-size: 22px;
+        font-size: 33px;
     }
     nav .fas{
         display: block;
