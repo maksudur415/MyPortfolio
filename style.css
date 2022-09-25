@@ -325,6 +325,7 @@ form .btn2{
 /* -----------------css for small screens--------- */
 nav .fas{
     display: none;
+    color: #FF004F;
 }
 
 @media only screen and (max-width: 600px){
